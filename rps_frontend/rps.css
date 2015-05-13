@@ -1,0 +1,33 @@
+body, html {
+	background-image:url(confectionary.png);
+	font-family:Helvetica;
+	margin:20px;
+}
+
+#title {
+	text-align:center;
+	margin-top:40px;
+	color:blue;
+}
+
+.instructions {
+
+}
+
+#game-images {
+	list-style:none;
+	width:100%;
+	display:table;
+}
+
+#game-images li {
+	display:table-cell;
+	width:auto;
+}
+
+img {
+	width:150px;
+	height:150px;
+	border:2px solid black;
+	border-radius:8px;
+}
