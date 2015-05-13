@@ -19,3 +19,52 @@ We are going to build the front-end of our 'Rock, Paper, Scissors, Lizard, Spock
 
 The first step is to build the **HTML structure** of the website. Now would be a good time to take a look at the [introduction on HTML](https://github.com/InterfaithCoding/frontend/blob/master/html.md) that I have prepared for you. 
 
+After you have done that create a new file and call it 'rps.html'. You might want to create a new folder to keep all the files you have in one place. You can also decide on a theme for your game, and find five images on Google that you want to use in your game. You should save these in the new folder you created. 
+
+In the file 'rps.html' type the following code. 
+
+#####Basic HTML code
+
+```
+<html>
+	<head>
+		<link href='rps.css' type='text/css' rel='stylesheet'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="rps.js"></script>
+	</head>
+```
+This code is not shown on the browser, but it contains information about the page that is important for the browser to know. It tells the browser where our css stylesheets and javascript code are placed. You can copy and paste 
+```
+	<title>Rock Paper Scissors Lizard Spock</title>
+```
+
+This is the title for our website that will be shown on the browser tab. 
+
+```
+	<body>
+		<h1 id='title'>Rock Paper Scissors Lizard Spock</h1>
+		<h2 class='call-to-action'>Are you ready to play?</h2>
+		<p> Please enter your name: </p>
+		<form>
+			<input type="text" name="name">
+			<input type="submit" value='Submit'>
+		</form>
+		<p class='instructions'>Click on your pick below, and await your fate...</p>
+		<ul id='game-images'>
+			<li id='rock'><img src='rock.jpg' alt="Rock" ></li>
+			<li id='paper'><img src='paper.jpg' alt="Paper" ></li>
+			<li id='scissors'><img src='scissors.jpg' alt="Scissors" ></li>
+			<li id='lizard'><img src='lizard.jpg' alt="Lizard" ></li>
+			<li id='spock'><img src='spock.jpg' alt="Spock"></li>
+		</ul>
+	</body>
+</html>
+```
+
+This is the main body of our code, the bit which will be shown to the user. We first have an h1 heading and then a sub-heading. After that I have put in a form so that our player can enter their name. Feel free to customise the text of the headings, add in your own and change the form. 
+
+
+With the ```<ul>``` element I have created a new unordered list to contain the images that I am going to use.
+
+This is a very simple HTML structure, but that is all we need for the time being to get us started. Don't forget to use [w3 Schools website](http://www.w3schools.com/html/) to find out how to add other elements such as links. 
+
