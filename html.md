@@ -47,8 +47,7 @@ The ```src``` refers to the name of the file where the picture we want to upload
 
 * You don't have to memorise the HTML elements because they are well documented online and you can always refer to the reference website, but a couple of elements you will become familiar with as you use them. This is the official website http://www.w3schools.com/html/ and has all the information you will need. Highly recommend spending a good amount of time working through the examples if you wish to become very familiar with HTML.  
 
-Summary
-========
+#####Summary
 
 * HTML pages are text documents
 * HTML uses tags, which as characters that sit inside angled brackets. They act like containers and tell you something about the information that lies between them.
