@@ -45,7 +45,7 @@ $(document).ready(function(){
 
 We have to wrap our jQuery code in a (document).ready(function). It's okay to copy and paste this code, but just remember to wrap all our jQuery code in between. 
 
-What the rest of the code is saying is: "When I click on a ```<p>``` element, change the content of the element to "I've been clicked"". Checkout this [JSFiddle](https://jsfiddle.net/2uL0ukph/) which shows you exactly what the code is doing.
+What the rest of the code is saying is: "When I click on a ```<p>``` element, change the content of the element to "I've been clicked"". Check out this [JSFiddle](https://jsfiddle.net/2uL0ukph/) which shows you exactly what the code is doing.
 
 To get familiar with jQuery have a look at the [w3 schools tutorial](http://www.w3schools.com/jquery/jquery_syntax.asp)
 

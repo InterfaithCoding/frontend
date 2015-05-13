@@ -149,3 +149,23 @@ Think of ideas of how you want to indicate to your players that certain elements
 
 
 We're going to be using a JavaScript library called jQuery to make our website interactive. Read through the [introduction to jQuery](https://github.com/InterfaithCoding/frontend/blob/master/javascript.md) that I have written before you move on. 
+
+
+Make a new file called 'rps.js' and save it in the same folder that you created. 
+
+
+I decided that I wanted to change the border to solid when the player hovers over an image. This is the jQuery code that will achieve that. 
+
+```
+$(document).ready(function(){
+  	$('img').on('mouseenter', function() {
+  		$(this).css('border', '5px solid #0c595b');
+ 	});
+
+ 	$('img').on('mouseleave', function() {
+  		$(this).css('border', '5px dashed #0c595b');
+ 	});
+});
+```
+
+Add in your own interactivity and events. Once you are satisfied, we have finished building the front end of our first website. Congratulations! 
