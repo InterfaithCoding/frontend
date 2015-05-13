@@ -21,13 +21,13 @@ The HTML code in the ```<>``` brackets are called **HTML elements**. Elements ar
 ######Body, head and title
 * ```<body>``` - everything inside this element is shown inside the main browser window. Anything you want to be visible to the user should be within the <body> tags. You might be wondering what would go outside of the <body> tags. This is what the ```<head>``` element is for... 
 
-*```<head>``` - before the <body> element you will often see a <head> element. This contains information *about* the page, such as language and location of the website, tags which make our website searchable on a seach engine, or a title for the website. 
+* ```<head>``` - before the <body> element you will often see a <head> element. This contains information *about* the page, such as language and location of the website, tags which make our website searchable on a seach engine, or a title for the website. 
 
-*```<title>``` - the contents of <title> aren't shown as a title on your website, rather they are shown in the top of the browser. In Google Chrome, if you look at the tab for the window, it won't display a full URL (like www.google.com), but rather it will display 'Google'. It gets this information from the <title> tag on the Google codebase. 
+* ```<title>``` - the contents of <title> aren't shown as a title on your website, rather they are shown in the top of the browser. In Google Chrome, if you look at the tab for the window, it won't display a full URL (like www.google.com), but rather it will display 'Google'. It gets this information from the <title> tag on the Google codebase. 
 
 * There are many other HTML elements that will be important for us to be able to structure and write good HTML code. HTML provides us with six different heading sizes, from <h1> to <h6>. We would put an <h1> heading on our most important heading, i.e. the title of our website, and an <h6> tag on the least important. 
 
-*If we want to create a paragraph, we put the content of the paragraph in between <p> tags. 
+* If we want to create a paragraph, we put the content of the paragraph in between <p> tags. 
 
 * HTML gives us the ability to make both ordered (i.e. numbered) and unordered lists. At the beginning and end of the list we place <ol> or <ul> elements for *o*rdered *l*ist or *u*nordered *l*ist. We then place each *li*st item between <li> tags e.g. 
 
@@ -50,8 +50,8 @@ The ```src``` refers to the name of the file where the picture we want to upload
 Summary
 ========
 
-*HTML pages are text documents
-*HTML uses tags, which as characters that sit inside angled brackets. They act like containers and tell you something about the information that lies between them.
+* HTML pages are text documents
+* HTML uses tags, which as characters that sit inside angled brackets. They act like containers and tell you something about the information that lies between them.
 * Tags are often referred to as elements.
 * Tags usually come in pairs. The opening tags denotes the start of a piece of content; the closing tag denotes the end.
 * Opening tags can carry attributes, which tell us more about hte content of that element.
