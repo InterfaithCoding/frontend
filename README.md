@@ -139,3 +139,13 @@ If you open up the file in the browser like we did earlier, you website should b
 
 
 It's quite basic, and there's a whole lot more you can do with the styling and theming. Only move on to the next section when you are happy with how it looks like. 
+
+
+####Adding responsive behaviour to our website
+
+Now we're happy with how our website looks, we want to be able to tell the player that if they click on one of the images, something will happen. On many websites we know that elements are interactive because they change colour when we hover over them, or the border will change size etc. 
+
+Think of ideas of how you want to indicate to your players that certain elements are interactive. 
+
+
+We're going to be using a JavaScript library called jQuery to make our website interactive. Read through the [introduction to jQuery](https://github.com/InterfaithCoding/frontend/blob/master/javascript.md) that I have written before you move on. 
