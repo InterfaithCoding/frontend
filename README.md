@@ -17,5 +17,5 @@ JavaScript is an event-based imperative programming language (as opposed to HTML
 ####Today's challenge
 We are going to build the front-end of our 'Rock, Paper, Scissors, Lizard, Spock' website. The walkthrough is going to be quite basic, introducing you to the key concepts, but it is up to you to customise and design the website however you want. Have fun with it and use the online resources to help you do something you might not know how to.
 
-The first step is to build the **HTML structure** of the website. Now would be a good time to take a look at the [introduction on HTML](https://github.com/InterfaithCoding/frontend/html.md) that I have prepared for you. 
+The first step is to build the **HTML structure** of the website. Now would be a good time to take a look at the [introduction on HTML](https://github.com/InterfaithCoding/frontend/blob/master/html.md) that I have prepared for you. 
 
