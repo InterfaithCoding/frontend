@@ -77,3 +77,41 @@ Before we start styling our website, read the [introduction to css](https://gith
 Create a new file called 'rps.css'
 At the moment, our website is looking very dull. Maybe we want to add a background. I recommend finding a suitable background from [this website](http://subtlepatterns.com/). Choose one you like and download it. Open up the downloaded folder, and copy the file with the '.png' extension in to the folder you created for your 'Rock Paper Scissors' project. 
 
+Your CSS code might look something like this: 
+
+```
+body, html {
+	background-image:url(confectionary.png);
+	font-family:Helvetica;
+	margin:20px;
+}
+
+img {
+	width:150px;
+	height:150px;
+	border:2px solid black;
+	border-radius:8px;
+}
+
+#title {
+	text-align:center;
+	margin-top:40px;
+	color:blue;
+}
+
+.instructions {
+
+}
+
+#game-images {
+	list-style:none;
+	width:100%;
+	display:table;
+}
+
+#game-images li {
+	display:table-cell;
+	width:auto;
+}
+
+```
