@@ -33,4 +33,9 @@ There are many events that we may want to respond to. Here a couple of useful jQ
 * .css('background-color', 'red') - changes the background colour of the selected element to red 
 * .html('Hello I am now the HTML code')
 
+To get familiar with jQuery have a look at the [w3 schools tutorial](http://www.w3schools.com/jquery/jquery_syntax.asp)
+
+
+You can test out any code on [JSFiddle](https://jsfiddle.net/). Make sure under 'Files and Extensions' you select 'jQuery 2.1.3'. Here's a rather boring one I made earlier: [Hovering](https://jsfiddle.net/vLebw6fz/). Try and make your own, more exciting one! 
+
 
