@@ -66,5 +66,14 @@ This is the main body of our code, the bit which will be shown to the user. We f
 
 With the ```<ul>``` element I have created a new unordered list to contain the images that I am going to use.
 
+To see what our website currently looks like open 'Google Chrome'. Click the 'File' tab and select 'Open file'. Open 'rps.html'.
+
 This is a very simple HTML structure, but that is all we need for the time being to get us started. Don't forget to use [w3 Schools website](http://www.w3schools.com/html/) to find out how to add other elements such as links. 
+
+#####Let's add some style to this
+Before we start styling our website, read the [introduction to css](https://github.com/InterfaithCoding/frontend/blob/master/css.md)
+
+
+Create a new file called 'rps.css'
+At the moment, our website is looking very dull. Maybe we want to add a background. I recommend finding a suitable background from [this website](http://subtlepatterns.com/). Choose one you like and download it. Open up the downloaded folder, and copy the file with the '.png' extension in to the folder you created for your 'Rock Paper Scissors' project. 
 
