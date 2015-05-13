@@ -33,6 +33,20 @@ There are many events that we may want to respond to. Here a couple of useful jQ
 * .css('background-color', 'red') - changes the background colour of the selected element to red 
 * .html('Hello I am now the HTML code')
 
+Let's look at an example code:
+
+```
+$(document).ready(function(){
+  	$('p').on('click', function() {
+  		$(this).html('I've been clicked'!);
+ 	});
+});
+```
+
+We have to wrap our jQuery code in a (document).ready(function). It's okay to copy and paste this code, but just remember to wrap all our jQuery code in between. 
+
+What the rest of the code is saying is: "When I click on a ```<p>``` element, change the content of the element to "I've been clicked"". Checkout this [JSFiddle](https://jsfiddle.net/2uL0ukph/) which shows you exactly what the code is doing.
+
 To get familiar with jQuery have a look at the [w3 schools tutorial](http://www.w3schools.com/jquery/jquery_syntax.asp)
 
 
