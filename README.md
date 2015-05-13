@@ -132,5 +132,6 @@ There will be some properties that you have not yet met. Google what they do. Ex
 For colours, instead of just typing what colour we want, we can control exact shades, but declaring a hexcode as the value. [Here's](http://www.color-hex.com/) a good website to browse through a great variety of colours and find their hexcodes. 
 
 If you open up the file in the browser like we did earlier, you website should be looking very different! At this point, mine looks like this:
+![alt text](https://github.com/InterfaithCoding/frontend/blob/master/rps_frontend/stylisedgame.png)
 
 It's quite basic, and there's a whole lot more you can do with the styling and theming. Only move on to the next section when you are happy with how it looks like. 
