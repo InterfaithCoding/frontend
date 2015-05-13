@@ -89,18 +89,29 @@ body, html {
 img {
 	width:150px;
 	height:150px;
-	border:2px solid black;
-	border-radius:8px;
+	border:5px dashed #0c595b;
+	border-radius:75px;
 }
 
 #title {
 	text-align:center;
 	margin-top:40px;
-	color:blue;
+	color:#0c595b;
+	border:5px solid #43474c;
+	border-radius:10px;
+	padding:10px;
+	background-color:white;
+}
+
+.call-to-action {
+	color:#43474c;
 }
 
 .instructions {
-
+	color:#0c595b;
+	font-size:24px;
+	text-align:center;
+	padding:40px;
 }
 
 #game-images {

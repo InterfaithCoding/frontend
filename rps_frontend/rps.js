@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  	$('img').on('mouseenter', function() {
+  	$('img').on('click', function() {
   		alert("Hello");
   		this.css('background', 'red');
  	});
