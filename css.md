@@ -3,7 +3,7 @@ CSS
 
 We use CSS to make our websites look nicer. All our design choices should be controlled using CSS rules rather than with HTML. 
 
-Imagine that there is an invisible box around each HTML element. CSS creates rultes that control the way each individual box, and the contents of that box is displayed. For example, we can change the background colour, font, font size and weight, positioning and borders. 
+Imagine that there is an invisible box around each HTML element. CSS creates rules that control the way each individual box, and the contents of that box is displayed. For example, we can change the background colour, font, font size and weight, positioning and borders. 
 
 CSS works by associating rules with HTML elements. A CSS rule contains two parts: a **selector** and a **declaration**.
 
@@ -36,9 +36,9 @@ h1 {
 #####Identifying HTML elements
 We don't have to use the HTML elements as our selectors. Instead we can give our HTML elements an *id* or *class* property.
 
-An **id** is unique and can be assigned to only one HTML element, whereas many HTML elements can all have the same **class** property. 
+An **id** is unique and can be assigned to only one HTML element, whereas many HTML elements can all have the same **class** property. **Classes** are useful if there are a group of elements that you want to apply the same styling rules to, for example all elements in the navigation bar of your website.
 
-For example, say we are writing a newspaper article with 3 different paragraphs in the main body of my article. I could give them each a unique id number but make sure that they are all in the 'main-body' class.
+In the code below, I am writing a newspaper article with 3 different paragraphs in the main body of my article. I want each paragraph to have similar styling, but there are several unique things that I want to apply to each paragraph. Therefore, I have given each paragraph a unique id, but have also declared that they are all the in main body of my article. 
 
 ```
 <p id='paragraph1' class='main-body'>This is my first paragraph</p>
