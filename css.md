@@ -34,7 +34,7 @@ h1 {
 **Properties** indicate the aspects of the element you want to change. For example, the colour, the font-size, width, height, border etc. **Values** specify the settings that we want to the chosen properties - in the example above we have set the value of the colour property to blue.
 
 ####Identifying HTML elements
-We don't have to use the HTML elements as our selectors. Instead we can give our HTML elements an *id* or *class* property.
+We don't have to use the HTML elements as our selectors. Instead we can give our HTML elements an *id* or *class* property and use these as our css selectors.
 
 An **id** is unique and can be assigned to only one HTML element, whereas many HTML elements can all have the same **class** property. **Classes** are useful if there are a group of elements that you want to apply the same styling rules to, for example all elements in the navigation bar of your website.
 
@@ -45,9 +45,6 @@ In the code below, I am writing a newspaper article with 3 different paragraphs 
 <p id='paragraph2' class='main-body'> This is my second paragraph</p>
 <p id='paragraph3' class='main-body'> This is my second paragraph</p>
 ```
-Why is this useful? 
-
-This makes it easier for us to write our CSS rules. We can use the **id** and **class** attribute as our CSS selector. 
 
 To select an element with a specific id, write a hash character, followed by the id of the element. To select all elements with a specific class, write a full-stop character, followed by the class of the elements. 
 
@@ -57,6 +54,7 @@ The following code would style the HTML paragraphs so that they are all centred 
 .main-body {
 	text-align:center;
 	font-size:12px;
+	background-color:green;
 }
 
 #paragraph1 {
@@ -71,7 +69,6 @@ The following code would style the HTML paragraphs so that they are all centred 
 	color:yellow;
 }
 ```
-
 
 ####How cascading works
 CSS stands for **cascading style sheets**. So what does 'cascading' mean? 
@@ -90,3 +87,7 @@ Our browser needs to be able to find the correct CSS file used to style the page
 ```
 
 You need to update the text in the *href* section with the name of your own css file. 
+
+####CSS Resources
+
+The w3schools website (http://www.w3schools.com/css/default.asp) has extensive tutorials and documentation regarding CSS and it is important to take a look at the website to see what is possible with CSS. 
