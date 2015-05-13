@@ -33,7 +33,7 @@ h1 {
 
 **Properties** indicate the aspects of the element you want to change. For example, the colour, the font-size, width, height, border etc. **Values** specify the settings that we want to the chosen properties - in the example above we have set the value of the colour property to blue.
 
-#####Identifying HTML elements
+####Identifying HTML elements
 We don't have to use the HTML elements as our selectors. Instead we can give our HTML elements an *id* or *class* property.
 
 An **id** is unique and can be assigned to only one HTML element, whereas many HTML elements can all have the same **class** property. **Classes** are useful if there are a group of elements that you want to apply the same styling rules to, for example all elements in the navigation bar of your website.
@@ -73,7 +73,7 @@ The following code would style the HTML paragraphs so that they are all centred 
 ```
 
 
-#####How cascading works
+####How cascading works
 CSS stands for **cascading style sheets**. So what does 'cascading' mean? 
 
 If there are two or more rules that apply to the same element, it is important to understand which rule will take priority. There are three rules:
